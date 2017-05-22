@@ -38,7 +38,7 @@ public class AdapterDocRepositoryClientFactory extends CONNECTClientFactory {
      * .port.ServicePortDescriptor, java.lang.String, gov.hhs.fha.nhinc.common.nhinccommon.AssertionType,
      * java.lang.String, java.lang.String)
      */
-    @Override
+    
     public <T> CONNECTClient<T> getCONNECTClientSecured(ServicePortDescriptor<T> portDescriptor, String url,
             AssertionType assertion, String wsAddressing, String subscriptionId) {
         // TODO Auto-generated method stub
