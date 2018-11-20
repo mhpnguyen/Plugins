@@ -30,7 +30,7 @@
         <module>FHIRAdapters</module>
         <module>HPD-WS-Client</module>
         <module>PerformanceTestTools</module>
-        <!--module>CONNECTUniversalClientGUI</module-->
+        <module>PDMP</module>
         <!--module>X12RealTimeLargePayloadTest</module-->
         <module>PolicyEngineXACML</module>
     </modules>

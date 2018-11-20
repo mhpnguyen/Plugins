@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<parent>
+        <groupId>org.connectopensource</groupId>
+        <artifactId>Plugins</artifactId>
+        <version>4.6.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>PDMP</artifactId>
+	<name>${project.artifactId}</name>
+    <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <description>PDMP Plugins for accessing prescription data and integrating with patient documents.</description>
+    
+	<properties>
+        <compiler.source>1.8</compiler.source>
+        <compiler.target>1.8</compiler.target>
+    </properties>
+	
+	<dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>javax</groupId>
+                <artifactId>javaee-api</artifactId>
+                <version>6.0</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <modules>
+        <module>PDMP-Lib</module>
+        <module>PDMP-Demo</module>
+    </modules>
+</project>
